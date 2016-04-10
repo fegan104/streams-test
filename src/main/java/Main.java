@@ -19,6 +19,10 @@ public class Main {
                 .forEach(System.out::println);
     }
 
+    /**
+     * A utility method for timing teh sorting a list.
+     * @param list The list to be timed adn sorted
+     */
     public static void sortTimer(List list) {
         long startTime = System.currentTimeMillis();
         QuickSort.sortDouble(list);
